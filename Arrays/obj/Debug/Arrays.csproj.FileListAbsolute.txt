@@ -1,0 +1,12 @@
+D:\repos\CSharpCourse\CSharpCourse\Arrays\bin\Debug\Arrays.exe.config
+D:\repos\CSharpCourse\CSharpCourse\Arrays\bin\Debug\Arrays.exe
+D:\repos\CSharpCourse\CSharpCourse\Arrays\bin\Debug\Arrays.pdb
+D:\repos\CSharpCourse\CSharpCourse\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourse\CSharpCourse\Arrays\obj\Debug\Arrays.exe
+D:\repos\CSharpCourse\CSharpCourse\Arrays\obj\Debug\Arrays.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\Arrays\bin\Debug\Arrays.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\Arrays\bin\Debug\Arrays.exe
+D:\repos\CSharpCourseNew\CSharpCourse\Arrays\bin\Debug\Arrays.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourseNew\CSharpCourse\Arrays\obj\Debug\Arrays.exe
+D:\repos\CSharpCourseNew\CSharpCourse\Arrays\obj\Debug\Arrays.pdb

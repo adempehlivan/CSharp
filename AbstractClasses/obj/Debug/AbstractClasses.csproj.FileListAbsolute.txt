@@ -1,0 +1,15 @@
+D:\repos\CSharpCourse\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe.config
+D:\repos\CSharpCourse\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe
+D:\repos\CSharpCourse\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.pdb
+D:\repos\CSharpCourse\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourse\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.exe
+D:\repos\CSharpCourse\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.pdb
+D:\repos\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe.config
+D:\repos\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.exe
+D:\repos\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.exe
+D:\repos\CSharpCourseNew\CSharpCourse\AbstractClasses\bin\Debug\AbstractClasses.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourseNew\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.exe
+D:\repos\CSharpCourseNew\CSharpCourse\AbstractClasses\obj\Debug\AbstractClasses.pdb

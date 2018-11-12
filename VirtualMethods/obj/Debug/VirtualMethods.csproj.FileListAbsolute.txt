@@ -1,0 +1,10 @@
+D:\repos\CSharpCourse\CSharpCourse\VirtualMethods\bin\Debug\VirtualMethods.exe.config
+D:\repos\CSharpCourse\CSharpCourse\VirtualMethods\bin\Debug\VirtualMethods.exe
+D:\repos\CSharpCourse\CSharpCourse\VirtualMethods\bin\Debug\VirtualMethods.pdb
+D:\repos\CSharpCourse\CSharpCourse\VirtualMethods\obj\Debug\VirtualMethods.exe
+D:\repos\CSharpCourse\CSharpCourse\VirtualMethods\obj\Debug\VirtualMethods.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\VirtualMethods\bin\Debug\VirtualMethods.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\VirtualMethods\bin\Debug\VirtualMethods.exe
+D:\repos\CSharpCourseNew\CSharpCourse\VirtualMethods\bin\Debug\VirtualMethods.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\VirtualMethods\obj\Debug\VirtualMethods.exe
+D:\repos\CSharpCourseNew\CSharpCourse\VirtualMethods\obj\Debug\VirtualMethods.pdb

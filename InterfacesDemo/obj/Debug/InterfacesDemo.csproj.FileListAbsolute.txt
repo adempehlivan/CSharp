@@ -1,0 +1,6 @@
+D:\repos\CSharpCourseNew\CSharpCourse\InterfacesDemo\bin\Debug\InterfacesDemo.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\InterfacesDemo\bin\Debug\InterfacesDemo.exe
+D:\repos\CSharpCourseNew\CSharpCourse\InterfacesDemo\bin\Debug\InterfacesDemo.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\InterfacesDemo\obj\Debug\InterfacesDemo.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourseNew\CSharpCourse\InterfacesDemo\obj\Debug\InterfacesDemo.exe
+D:\repos\CSharpCourseNew\CSharpCourse\InterfacesDemo\obj\Debug\InterfacesDemo.pdb

@@ -1,0 +1,12 @@
+D:\repos\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.exe.config
+D:\repos\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.exe
+D:\repos\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.pdb
+D:\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.exe
+D:\repos\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.exe
+D:\repos\CSharpCourseNew\CSharpCourse\RecapDemo2\bin\Debug\RecapDemo2.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourseNew\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.exe
+D:\repos\CSharpCourseNew\CSharpCourse\RecapDemo2\obj\Debug\RecapDemo2.pdb

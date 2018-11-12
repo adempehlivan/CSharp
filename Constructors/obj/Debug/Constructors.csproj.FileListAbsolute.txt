@@ -1,0 +1,8 @@
+D:\repos\CSharpCourseNew\CSharpCourse\Constructors\bin\Debug\Constructors.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\Constructors\bin\Debug\Constructors.exe
+D:\repos\CSharpCourseNew\CSharpCourse\Constructors\bin\Debug\Constructors.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\Constructors\obj\Debug\Constructors.exe
+D:\repos\CSharpCourseNew\CSharpCourse\Constructors\obj\Debug\Constructors.pdb
+D:\repos\CSharpCourse\Constructors\bin\Debug\Constructors.exe.config
+D:\repos\CSharpCourse\Constructors\obj\Debug\Constructors.exe
+D:\repos\CSharpCourse\Constructors\obj\Debug\Constructors.pdb

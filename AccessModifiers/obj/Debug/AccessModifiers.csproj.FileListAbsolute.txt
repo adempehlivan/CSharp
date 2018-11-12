@@ -1,0 +1,3 @@
+D:\repos\CSharpCourse\AccessModifiers\bin\Debug\AccessModifiers.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\AccessModifiers\bin\Debug\AccessModifiers.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\AccessModifiers\obj\Debug\AccessModifiers.csprojResolveAssemblyReference.cache

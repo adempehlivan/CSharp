@@ -1,0 +1,11 @@
+D:\repos\CSharpCourse\CSharpCourse\Inheritance\bin\Debug\Inheritance.exe.config
+D:\repos\CSharpCourse\CSharpCourse\Inheritance\bin\Debug\Inheritance.exe
+D:\repos\CSharpCourse\CSharpCourse\Inheritance\bin\Debug\Inheritance.pdb
+D:\repos\CSharpCourse\CSharpCourse\Inheritance\obj\Debug\Inheritance.exe
+D:\repos\CSharpCourse\CSharpCourse\Inheritance\obj\Debug\Inheritance.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\Inheritance\bin\Debug\Inheritance.exe.config
+D:\repos\CSharpCourseNew\CSharpCourse\Inheritance\bin\Debug\Inheritance.exe
+D:\repos\CSharpCourseNew\CSharpCourse\Inheritance\bin\Debug\Inheritance.pdb
+D:\repos\CSharpCourseNew\CSharpCourse\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+D:\repos\CSharpCourseNew\CSharpCourse\Inheritance\obj\Debug\Inheritance.exe
+D:\repos\CSharpCourseNew\CSharpCourse\Inheritance\obj\Debug\Inheritance.pdb
