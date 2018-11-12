@@ -10,3 +10,6 @@ D:\repos\CSharpCourseNew\CSharpCourse\Arrays\bin\Debug\Arrays.pdb
 D:\repos\CSharpCourseNew\CSharpCourse\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
 D:\repos\CSharpCourseNew\CSharpCourse\Arrays\obj\Debug\Arrays.exe
 D:\repos\CSharpCourseNew\CSharpCourse\Arrays\obj\Debug\Arrays.pdb
+D:\repos\CSharp\Arrays\bin\Debug\Arrays.exe.config
+D:\repos\CSharp\Arrays\obj\Debug\Arrays.exe
+D:\repos\CSharp\Arrays\obj\Debug\Arrays.pdb

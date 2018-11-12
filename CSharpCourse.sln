@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{09A43135-1C95-4712-A9C2-6DA10E89D51B}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{9181EFE9-C44D-4EC0-B6AB-BE58997ABA6B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{4AED1D65-9579-46BD-B4CB-36B890F804D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{6C3158D6-4E7A-4F69-94DA-FEB92A131C7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{4AED1D65-9579-46BD-B4CB-36B890F804D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AED1D65-9579-46BD-B4CB-36B890F804D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AED1D65-9579-46BD-B4CB-36B890F804D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3158D6-4E7A-4F69-94DA-FEB92A131C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3158D6-4E7A-4F69-94DA-FEB92A131C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3158D6-4E7A-4F69-94DA-FEB92A131C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3158D6-4E7A-4F69-94DA-FEB92A131C7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
