@@ -10,20 +10,26 @@ namespace AdoNetDemo
 {
     public class ProductDal
     {
+        SqlConnection _connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
         public DataTable GetAll2()
         {
             DataTable dataTable = new DataTable();
-            SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
-            if (connection.State == ConnectionState.Closed)
-                connection.Open();
-            SqlCommand command = new SqlCommand("Select * from Products", connection);
+
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("Select * from Products", _connection);
 
             SqlDataReader reader = command.ExecuteReader();
 
             dataTable.Load(reader);
             reader.Close();
-            connection.Close();
+            _connection.Close();
             return dataTable;
+        }
+
+        private void ConnectionControl()
+        {
+            if (_connection.State == ConnectionState.Closed)
+                _connection.Open();
         }
 
         public List<Product> GetAll()
@@ -31,10 +37,9 @@ namespace AdoNetDemo
             //doldurmak istediğimiz nesneyi 1 kere list olarak oluşturururz.
             List<Product> products = new List<Product>();
 
-            SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
-            if (connection.State == ConnectionState.Closed)
-                connection.Open();
-            SqlCommand command = new SqlCommand("Select * from Products", connection);
+
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("Select * from Products", _connection);
 
             SqlDataReader reader = command.ExecuteReader();
 
@@ -52,15 +57,47 @@ namespace AdoNetDemo
  
             }
             reader.Close();
-            connection.Close();
+            _connection.Close();
             return products;
         }
 
         public void Add(Product product)
         {
-            SqlConnection connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=ETrade;integrated security=true");
-            if (connection.State == ConnectionState.Closed)
-                connection.Open();
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("Insert into Products values (@name,@unitPrice,@stockAmount)", _connection);
+            command.Parameters.AddWithValue("@name", product.Name);
+            command.Parameters.AddWithValue("@unitPrice", product.UnitPrice);
+            command.Parameters.AddWithValue("@stockAmount", product.StockAmount);
+
+            command.ExecuteNonQuery();
+
+            _connection.Close();
+        }
+
+        public void Update(Product product)
+        {
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("Update Products set Name=@name,UnitPrice=@unitPrice,StockAmount=@stockAmount where Id=@id", _connection);
+            command.Parameters.AddWithValue("@name", product.Name);
+            command.Parameters.AddWithValue("@unitPrice", product.UnitPrice);
+            command.Parameters.AddWithValue("@stockAmount", product.StockAmount);
+            command.Parameters.AddWithValue("@id", product.Id);
+
+            command.ExecuteNonQuery();
+
+            _connection.Close();
+        }
+
+        public void Delete(int id)
+        {
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("delete from Products where Id=@id", _connection);
+           
+            command.Parameters.AddWithValue("@id", id);
+
+            command.ExecuteNonQuery();
+
+            _connection.Close();
         }
     }
 }
