@@ -22,10 +22,15 @@ namespace EntityFrameworkDemo
         {
             using (EtradeContext context = new EtradeContext())
             {
-                //  context.Products.Add(product);
+                
                 var entity = context.Entry(product);
                 entity.State = EntityState.Added;//böylede bir yazım olabilir
                 context.SaveChanges();
+
+
+                //kısa add işlemi
+                //  context.Products.Add(product);
+                //  context.SaveChanges();
             }
         }
 
@@ -36,7 +41,11 @@ namespace EntityFrameworkDemo
                 //gönderdiğimiz product nesnesini veritabanı ile eşleştiriyor.
                 var entity = context.Entry(product);
                 entity.State = EntityState.Modified;
+         
                 context.SaveChanges();
+
+
+                //update in ise olması gereken nesneyi çekersin çektiğin objede değişiklik yapıp savechanges yaparsın
             }
         }
 
@@ -44,10 +53,21 @@ namespace EntityFrameworkDemo
         {
             using (EtradeContext context = new EtradeContext())
             {
-                //gönderdiğimiz product nesnesini veritabanı ile eşleştiriyor.
+               
+                //context.Products.Remove(product); silmeyi add gibi basit şekilde yapabiliriz.
+                //gönderdiğimiz product nesnesini veritabanı ile eşleştiriyor. ama yanlış gibi
                 var entity = context.Entry(product);
                 entity.State = EntityState.Deleted;
                 context.SaveChanges();
+            }
+        }
+
+        public List<Product> GetByName(string key)
+        {
+            //EtradeContext bellekte çok yer kaplıyor. Bu tip nesneleri F12 ile giderse IDispsible yi görürüsün. using kullanırsan metoddan çıkınca gb yi beklemeden nesneyi zorla dispose edersin.
+            using (EtradeContext context = new EtradeContext())
+            {
+                return context.Products.Where(p=>p.Name.Contains(key)).ToList();
             }
         }
     }

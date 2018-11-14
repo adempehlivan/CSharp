@@ -28,6 +28,15 @@ namespace EntityFrameworkDemo
             dgvProducts.DataSource = _productDal.GetAll();
         }
 
+        private void SearchProducts(string key)
+        {
+            //bu çekilen tüm veride linq ile where atıyor. ama yeni yazdığımız GetByName where li çekiyor.
+            //dgvProducts.DataSource = _productDal.GetAll().Where(z=>z.Name.Contains(key)).ToList();
+            //Burdaki en büyük sorun küçük l ile veri gelmiyor ama L ile geliyordu. bunun nedeni csharp küçük büyük harf duyarlıdır koleksiyondan arama yapılcaksa isimlerde arama ifadeside küçük harfe çevirilir.
+
+            var result = _productDal.GetByName(key);
+            dgvProducts.DataSource = result;
+        }
         private void btnAdd_Click(object sender, EventArgs e)
         {
             //Bu eski hali
@@ -84,6 +93,11 @@ namespace EntityFrameworkDemo
 
             MessageBox.Show("Deleted!");
             LoadProducts();
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchProducts(tbxSearch.Text);
         }
     }
 }
