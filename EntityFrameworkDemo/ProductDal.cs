@@ -70,5 +70,25 @@ namespace EntityFrameworkDemo
                 return context.Products.Where(p=>p.Name.Contains(key)).ToList();
             }
         }
+
+        public List<Product> GetByUnitPrice(decimal min,decimal max)
+        {
+            //EtradeContext bellekte çok yer kaplıyor. Bu tip nesneleri F12 ile giderse IDispsible yi görürüsün. using kullanırsan metoddan çıkınca gb yi beklemeden nesneyi zorla dispose edersin.
+            using (EtradeContext context = new EtradeContext())
+            {
+                return context.Products.Where(p => p.UnitPrice >= min && p.UnitPrice<=max).ToList();
+            }
+        }
+
+        public Product GetById(int id)
+        {
+            //EtradeContext bellekte çok yer kaplıyor. Bu tip nesneleri F12 ile giderse IDispsible yi görürüsün. using kullanırsan metoddan çıkınca gb yi beklemeden nesneyi zorla dispose edersin.
+            using (EtradeContext context = new EtradeContext())
+            {
+                var result = context.Products.FirstOrDefault(x => x.Id == id);
+                return result;
+            }
+
+        }
     }
 }
